@@ -1,4 +1,6 @@
 export default {
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'facedook',
@@ -45,6 +47,4 @@ export default {
   tailwindcss: {
     jit: true,
   },
-
-  target: 'static',
 }
